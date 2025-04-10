@@ -2,9 +2,9 @@
   "name": "my-project",
   "version": "1.0.0",
   "description": "",
-  "main": "arduinowifi.js",
+  "main": "wifiarduino.js",
   "scripts": {    
-    "start": "npm start"
+    "start": "node wifiarduino.js"
   },
   "keywords": [],
   "author": "",
