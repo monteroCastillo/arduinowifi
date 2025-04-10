@@ -8,6 +8,7 @@ app.post("/sensor-data", (req, res) => {
     res.send("Datos recibidos correctamente.");
 });
 
-app.listen(3000, () => {
-    console.log("Servidor corriendo en http://localhost:3000");
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`Servidor ejecutándose en el puerto ${port}`);
 });
